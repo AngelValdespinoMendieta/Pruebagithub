@@ -8,5 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     btn.addEventListener("click", function () {
         title.style.color = "blue";
         title.textContent = "¡Haz hecho clic en el botón!";
+		// Cambiar el color de fondo de la página
+    changeBgButton.addEventListener("click", function () {
+        document.body.style.backgroundColor = "#ffcccb"; // Cambiar el fondo a un color suave
     });
 });
