@@ -1,4 +1,5 @@
 // Espera que el DOM esté completamente cargado
+//uso de botones
 document.addEventListener("DOMContentLoaded", function () {
     // Obtener el botón y el título
     const btn = document.getElementById("myButton");
